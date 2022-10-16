@@ -5,19 +5,19 @@ type LoginStatusData struct {
 	RawJson string `json:"-"`
 	Code    int    `json:"code"`
 	Account struct {
-		Id                 int    `json:"id"`
-		UserName           string `json:"userName"`
-		Type               int    `json:"type"`
-		Status             int    `json:"status"`
-		WhitelistAuthority int    `json:"whitelistAuthority"`
-		CreateTime         string `json:"createTime"`
-		TokenVersion       int    `json:"tokenVersion"`
-		Ban                int    `json:"ban"`
-		BaoyueVersion      int    `json:"baoyueVersion"`
-		DonateVersion      int    `json:"donateVersion"`
-		VipType            int    `json:"vipType"`
-		AnonimousUser      bool   `json:"anonimousUser"`
-		PaidFee            bool   `json:"paidFee"`
+		Id                 int         `json:"id"`
+		UserName           string      `json:"userName"`
+		Type               int         `json:"type"`
+		Status             int         `json:"status"`
+		WhitelistAuthority int         `json:"whitelistAuthority"`
+		CreateTime         interface{} `json:"createTime"`
+		TokenVersion       int         `json:"tokenVersion"`
+		Ban                int         `json:"ban"`
+		BaoyueVersion      int         `json:"baoyueVersion"`
+		DonateVersion      int         `json:"donateVersion"`
+		VipType            int         `json:"vipType"`
+		AnonimousUser      bool        `json:"anonimousUser"`
+		PaidFee            bool        `json:"paidFee"`
 	} `json:"account"`
 	Profile struct {
 		UserId              int         `json:"userId"`
