@@ -1,4 +1,4 @@
-module github.com/XiaoMengXinX/Music163Api-Go
+module github.com/hsuehly/Music163Api-Go
 
 go 1.17
 

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/XiaoMengXinX/Music163Api-Go/types"
-	"github.com/XiaoMengXinX/Music163Api-Go/utils"
+	"github.com/hsuehly/Music163Api-Go/types"
+	"github.com/hsuehly/Music163Api-Go/utils"
 )
 
 // PlaylistDetailAPI 歌单详细信息 API

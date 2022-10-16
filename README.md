@@ -68,8 +68,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/XiaoMengXinX/Music163Api-Go/api"
-	"github.com/XiaoMengXinX/Music163Api-Go/utils"
+	"github.com/hsuehly/Music163Api-Go/api"
+	"github.com/hsuehly/Music163Api-Go/utils"
 )
 
 func main() {
@@ -98,8 +98,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/XiaoMengXinX/Music163Api-Go/api"
-	"github.com/XiaoMengXinX/Music163Api-Go/utils"
+	"github.com/hsuehly/Music163Api-Go/api"
+	"github.com/hsuehly/Music163Api-Go/utils"
 )
 
 func main() {
@@ -138,9 +138,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/XiaoMengXinX/Music163Api-Go/api"
-	"github.com/XiaoMengXinX/Music163Api-Go/types"
-	"github.com/XiaoMengXinX/Music163Api-Go/utils"
+	"github.com/hsuehly/Music163Api-Go/api"
+	"github.com/hsuehly/Music163Api-Go/types"
+	"github.com/hsuehly/Music163Api-Go/utils"
 )
 
 func main() {
@@ -169,7 +169,7 @@ func main() {
 }
 ```
 
-Batch 可用的 API 列表详见 https://pkg.go.dev/github.com/XiaoMengXinX/Music163Api-Go/api#pkg-constants
+Batch 可用的 API 列表详见 https://pkg.go.dev/github.com/hsuehly/Music163Api-Go/api#pkg-constants
 
 ## 已知问题
 

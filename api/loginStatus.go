@@ -3,8 +3,8 @@ package api
 import (
 	"encoding/json"
 
-	"github.com/XiaoMengXinX/Music163Api-Go/types"
-	"github.com/XiaoMengXinX/Music163Api-Go/utils"
+	"github.com/hsuehly/Music163Api-Go/types"
+	"github.com/hsuehly/Music163Api-Go/utils"
 )
 
 // LoginStatusAPI 获取账号登录状态 API

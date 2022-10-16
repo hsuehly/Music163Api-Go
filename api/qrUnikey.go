@@ -3,8 +3,8 @@ package api
 import (
 	"encoding/json"
 
-	"github.com/XiaoMengXinX/Music163Api-Go/types"
-	"github.com/XiaoMengXinX/Music163Api-Go/utils"
+	"github.com/hsuehly/Music163Api-Go/types"
+	"github.com/hsuehly/Music163Api-Go/utils"
 )
 
 // QrUnikeyAPI 获取 QR 登录的 unikey

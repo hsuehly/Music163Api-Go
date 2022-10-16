@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/XiaoMengXinX/Music163Api-Go/types"
-	"github.com/XiaoMengXinX/Music163Api-Go/utils"
 	"github.com/google/uuid"
+	"github.com/hsuehly/Music163Api-Go/types"
+	"github.com/hsuehly/Music163Api-Go/utils"
 )
 
 // SendEventAPI 发送动态 API

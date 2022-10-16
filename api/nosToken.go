@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/XiaoMengXinX/Music163Api-Go/types"
-	"github.com/XiaoMengXinX/Music163Api-Go/utils"
+	"github.com/hsuehly/Music163Api-Go/types"
+	"github.com/hsuehly/Music163Api-Go/utils"
 )
 
 // NosTokenAPI 获取 NosToken API （用于文件上传）

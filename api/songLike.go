@@ -3,8 +3,8 @@ package api
 import (
 	"encoding/json"
 
-	"github.com/XiaoMengXinX/Music163Api-Go/types"
-	"github.com/XiaoMengXinX/Music163Api-Go/utils"
+	"github.com/hsuehly/Music163Api-Go/types"
+	"github.com/hsuehly/Music163Api-Go/utils"
 )
 
 // SongLikeAPI 添加/删除红心歌曲 API

@@ -21,7 +21,7 @@ type MusicianDailyTasksData struct {
 			Status          int    `json:"status"`
 			Button          string `json:"button"`
 			SortValue       int    `json:"sortValue"`
-			StartTime       int    `json:"startTime"`
+			StartTime       string `json:"startTime"`
 			EndTime         int    `json:"endTime"`
 			ExtendInfo      string `json:"extendInfo"`
 			Period          int    `json:"period"`

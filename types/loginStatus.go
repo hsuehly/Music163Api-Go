@@ -10,7 +10,7 @@ type LoginStatusData struct {
 		Type               int    `json:"type"`
 		Status             int    `json:"status"`
 		WhitelistAuthority int    `json:"whitelistAuthority"`
-		CreateTime         int    `json:"createTime"`
+		CreateTime         string `json:"createTime"`
 		TokenVersion       int    `json:"tokenVersion"`
 		Ban                int    `json:"ban"`
 		BaoyueVersion      int    `json:"baoyueVersion"`
